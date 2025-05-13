@@ -1,0 +1,110 @@
+/* Homepage-About Noureen Section */
+
+#about-noureen1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F5F0FF;
+  margin: 5em 1em 5em 1em;
+  padding: 1em 1em;
+  border-radius: 60px;
+  flex-wrap: wrap; /* good for responsiveness */
+  position: relative;
+}
+
+.about-content1 {
+	display: flex;
+	flex-direction: column;
+  flex: 1;
+  padding: 1em 2em;
+  z-index: 2;
+	align-items: flex-end;
+  margin-top: 1em;
+}
+
+.about-content1 h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #111827;
+	font-weight: 400;
+  margin: 0;
+}
+
+.about-content1 p {
+  font-size: 1rem;
+  line-height: 1;
+	font-weight: 500;
+  color: #374151;
+	text-align: left;
+}
+
+.about-content1 a {
+  display: inline-block;
+  padding: 3em 0 ;
+  text-decoration: none;
+}
+
+.about-image1 {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F6FF;
+  max-width: 100%;
+	border-radius: 30px;
+	padding: 1em 0;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background: transparent;
+}
+
+.about-image1 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 150px;
+  display: block;
+}
+
+/* About Noureen Page Gallery Section */
+
+.gallery-section {
+  padding: 2rem 2em 4em 2em;
+  background: #f4f0fa;
+  text-align: center;
+}
+
+.gallery-section h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #111827;
+	font-weight: 400;
+  margin-bottom: 0.2em;
+}
+
+.gallery-section p {
+  font-size: 1.5rem;
+  color: #111827;
+	font-weight: 400;
+  margin: 1em 0 2em 0;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+}
+
+.gallery-image {
+  max-height: 500px;
+  border-radius: 1rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
