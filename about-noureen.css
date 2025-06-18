@@ -1,25 +1,28 @@
 /* Homepage-About Noureen Section */
 
-#about-noureen1 {
+.about-noureen-page {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #F5F0FF;
   margin: 5em 1em 5em 1em;
   padding: 1em 1em;
-  border-radius: 60px;
   flex-wrap: wrap; /* good for responsiveness */
-  position: relative;
 }
 
-.about-content1 {
+.about-noureen1 {
 	display: flex;
-	flex-direction: column;
-  flex: 1;
-  padding: 1em 2em;
-  z-index: 2;
-	align-items: flex-end;
+	flex-direction: row;
+  padding: 2em 1em;
   margin-top: 1em;
+  gap: 5em;
+}
+
+.about-noureen1 img {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  border-radius: 30px;
 }
 
 .about-content1 h2 {
@@ -28,6 +31,13 @@
   color: #111827;
 	font-weight: 400;
   margin: 0;
+}
+
+.about-noureen-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .about-content1 p {
@@ -44,26 +54,6 @@
   text-decoration: none;
 }
 
-.about-image1 {
-  flex: 1;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #F9F6FF;
-  max-width: 100%;
-	border-radius: 30px;
-	padding: 1em 0;
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  background: transparent;
-}
-
-.about-image1 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 150px;
-  display: block;
-}
 
 /* About Noureen Page Gallery Section */
 

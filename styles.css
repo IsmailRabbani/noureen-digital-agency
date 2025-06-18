@@ -157,6 +157,7 @@ body {
   justify-content: stretch;
   align-items: flex-start;
   padding: 0.5em 1em;
+	line-height: 2;
 }
 
 .header-content h1 {
@@ -164,13 +165,12 @@ body {
   font-size: 2rem;
   font-weight: 580;
   margin: 0.5em 0.5em 1em 0;
-  line-height: 1.2;
 	padding-top: 0;
 }
 
 .header-content p {
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 2;
   margin-bottom: 2rem;
 }
 
@@ -240,8 +240,7 @@ font-weight: 500;
   max-width: 100%;
   height: auto;
   display: block;
-	padding: 0 0.5em 1em 0.5em;
-	border-radius: 100px;
+	border-radius: 30px;
 }
 /* Header Section Ends */
 
@@ -316,6 +315,7 @@ font-weight: 500;
 #services {
   display: Block;
   text-align: center;
+	background-color: #D9CCFF;
   margin-top: 1em;
 	padding: 3em 1em 3em 1em;
 }
@@ -338,10 +338,10 @@ font-weight: 500;
   flex-direction: row;
   justify-content: center;  /* centers list items horizontally */
   align-content: center;
+	width: 100%;
 	list-style: none;
-  gap: 1em 0;                /* adds spacing between items */
-  padding-bottom: 2.5em;
-  margin: 0;
+  gap: 1em;
+	padding: 0;
 }
 
 .services-list li {
@@ -629,7 +629,7 @@ section.gallery img {
 /* Contact Form Section */
 
 .contact-section {
-  background-color: #eaf2ff;
+  background-color: #F5F0FF;
   padding: 3em 2em;
   text-align: center;
 }
